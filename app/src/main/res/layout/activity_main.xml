@@ -37,7 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/purple_200">
 
         <TextView
            android:id="@+id/tvClean"
@@ -55,7 +56,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@color/purple_200">
 
     <TextView
         android:id="@+id/tvSeven"
@@ -87,7 +89,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@color/purple_200">
 
         <TextView
             android:id="@+id/tvFour"
@@ -120,7 +123,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="@color/purple_200">
 
         <TextView
             android:id="@+id/tvOne"
@@ -144,6 +148,40 @@
             android:id="@+id/tvAddition"
             style="@style/themeOpreratorsButton"
             android:text="+"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="@color/purple_200">
+
+        <TextView
+            android:id="@+id/tvPoint"
+            style="@style/themeNumbersButton"
+            android:text="."
+            />
+
+        <TextView
+            android:id="@+id/tvZero"
+            style="@style/themeNumbersButton"
+            android:text="0"
+            />
+
+        <ImageView
+            android:id="@+id/tvBackSpace"
+            style="@style/themeNumbersButton"
+            android:src="@drawable/backspace"
+            android:scaleType="center"
+            />
+
+        <TextView
+            android:id="@+id/tvEqual"
+            style="@style/themeOpreratorsButton"
+            android:text="="
             />
 
     </LinearLayout>
